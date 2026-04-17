@@ -1,7 +1,7 @@
 class Solution {
 public:
     int mySqrt(int x) {
-        if (x == 0) return 0; // 🔥 fix lỗi
+        if (x == 0) return 0; 
 
         int left = 1;
         int right = x;
